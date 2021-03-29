@@ -96,3 +96,4 @@ function getCurrentPosition() {
 }
 let button = document.querySelector("#btn-current");
 button.addEventListener("click", getCurrentPosition);
+
