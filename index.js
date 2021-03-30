@@ -69,6 +69,10 @@ function showTemperature(response) {
     cityEl.innerText = response.name;
     let temperature = Math.round(response.main.temp);
     tempEl.innerText = temperature;
+    let humidity = response.data.main.humidity;
+  let humidityDates = document.querySelector("#humidity");
+  let wind = document.querySelector("#wind");
+  let windSpeed = Math.round(3.6 * response.data.wind.speed);
   }
 }
 
