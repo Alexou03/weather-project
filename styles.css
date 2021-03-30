@@ -1,4 +1,5 @@
 .box {
+  background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
   border: 4px solid pink;
   width: 800px;
   height: 600px;
